@@ -10,7 +10,7 @@ on:
       - frontend/**
 
 env:
-  IMAGE_NAME: frontend-SahilHakimiUofT
+  IMAGE_NAME: frontend-sahilhakimiuoft
 
 jobs:
   # Push image to GitHub Packages.
