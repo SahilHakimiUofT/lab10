@@ -1,0 +1,59 @@
+.Message {
+  display:flex;
+  flex-flow:flex-start;
+  align-items:center;
+  width:100%;
+  margin:auto;
+  height:150px;
+  margin-top:20px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid grey; 
+}
+
+.Message .Message__user {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  width:100px;
+}
+
+.Message .Message__picture {
+  width:60px;
+  height:60px;
+  object-fit: contain;
+}
+
+.Message .Message__picture img {
+  max-width:100%;
+}
+
+.Message .Message__username {
+  padding-top:5px;
+}
+
+.Message .Message__content {
+  width:500px;
+  font-size: 24px;
+}
+
+.Message .Message__icon {
+  width:50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:75%;
+}
+
+.Message .Message__delete-icon {
+  background-image: url('../media/delete-icon.png');
+}
+
+.Message .Message__upvote-icon{
+  margin-left: auto;
+  background-image: url('../media/upvote-icon.png');
+}
+
+.Message .Message__downvote-icon{
+  background-image: url('../media/downvote-icon.png');
+}

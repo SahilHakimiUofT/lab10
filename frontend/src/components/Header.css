@@ -1,0 +1,14 @@
+#Header {
+  display:flex;
+  margin-top:36px;
+  height: 64px;
+  justify-content:flex-end;
+}
+
+#Header #Header__title {
+  color: black;
+  text-decoration:none;
+  margin: 0px;
+  width:100%;
+  font-size:48px;
+}
